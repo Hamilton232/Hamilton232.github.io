@@ -2,13 +2,14 @@
 <html lang="en">
 
   <head>
-
+    <!-- in your header -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Resume - Start Bootstrap Theme</title>
+    <title>Resume - Francis Hamilton</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -41,19 +42,19 @@
             <a class="nav-link js-scroll-trigger" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+            <a class="nav-link js-scroll-trigger" href="#Research Experience">Research Experience</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#Work Experience">Work Experience</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
           </li>
         </ul>
       </div>
@@ -81,9 +82,9 @@
 
       <hr class="m-0">
 
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="Research Experience">
         <div class="my-auto">
-          <h2 class="mb-5">Experience</h2>
+          <h2 class="mb-5">Research Experience</h2>
 
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
@@ -104,7 +105,7 @@
             <div class="resume-content mr-auto">
               <h3 class="mb-0">Research Student</h3>
               <div class="subheading mb-3">University of Tokyo</div>
-              <p>Many driving systems still require heuristic parameter tuning for control, and it is desired to automate this parameter tuning process. The difficulty of this problem is that there often exist multiple solutions that give high returns. Since a designed reward function is often not optimal in practice, the solution that gives the highest return may not be the optimal solution. For this reason, it is often necessary to check the multiple candidates of the solution and see which one is the best in the actual system. To address this issue, we are developing a hierarchical gradient-free optimization method that can find multiple modes of the return function. This framework is capable of proposing multiple solutions to users and letting users to choose the one that satisfies users' requirements.<br /> <br /> <a href="https://takaosa.github.io/research.html">Supervisor Paper</a>    <br />   <a href="REPORTS/Synthesis_course.pdf">Report</a>  </p>
+              <p>Many driving systems still require heuristic parameter tuning for control, and it is desired to automate this parameter tuning process. The difficulty of this problem is that there often exist multiple solutions that give high returns. Since a designed reward function is often not optimal in practice, the solution that gives the highest return may not be the optimal solution. For this reason, it is often necessary to check the multiple candidates of the solution and see which one is the best in the actual system. To address this issue, we are developing a hierarchical gradient-free optimization method that can find multiple modes of the return function. This framework is capable of proposing multiple solutions to users and letting users to choose the one that satisfies users' requirements.<br /> <br /> <a href="https://takaosa.github.io/research.html">Supervisor Website</a>    <br />   <a href="REPORTS/Synthesis_course.pdf">Report</a>  </p>
             </div>
             <div class="resume-date text-md-right">
               <span class="text-primary">April 2018 - September 2018</span>
@@ -114,25 +115,28 @@
 
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">Junior Web Designer</h3>
-              <div class="subheading mb-3">Shout! Media Productions</div>
-              <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
+              <h3 class="mb-0">Undergraduate Thesis</h3>
+              <div class="subheading mb-3">University of Cape Town</div>
+              <p>Leader-follower formation control is one of the most versatile and scalable formation
+control architectures. This study iterates through the necessary steps to achieve
+leader-follower formation control on a pair iRobotCreate robotic platforms through
+the use of visual feedback provided by a Microsoft Kinect. Image identification and
+measuring algorithms are developed to achieve the visual feedback requirements
+for the selected formation controller. The entire system is accurately modelled
+including the iRobot’s motion models and the sensor noise models. An EKF state
+estimator is designed and shown to produce accurate states from noisy measurements
+on the implemented system. A Lyapunov proven error based controller is selected
+from literature and shown to drive the relative errors to zero. The entire system
+is simulated and shown to accurately keep the formation amidst sensor noise. The
+implementation results show the validity of the controller and state estimators with
+the exception of a final error in the leader’s state in a certain formation scenario.<br /> <br /> <a href="REPORTS/thesis.pdf">Undergraduate Thesis</a></p>
             </div>
             <div class="resume-date text-md-right">
               <span class="text-primary">July 2010 - December 2011</span>
             </div>
           </div>
 
-          <div class="resume-item d-flex flex-column flex-md-row">
-            <div class="resume-content mr-auto">
-              <h3 class="mb-0">Web Design Intern</h3>
-              <div class="subheading mb-3">Shout! Media Productions</div>
-              <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">September 2008 - June 2010</span>
-            </div>
-          </div>
+
 
         </div>
 
@@ -160,7 +164,9 @@
             <div class="resume-content mr-auto">
               <h3 class="mb-0">University of Cape Town</h3>
               <div class="subheading mb-3">Bachelor of Science</div>
-              <div>Electrical Engineering - Mechatronics Track</div>
+              <div>Electrical Engineering - Mechatronics Track.</div>
+              <p><br />First Class Honours Pass for Thesis (>75%)<br />
+              Dean's list for all undergraduate years (GPA>70%)</p>
               <p>GPA: 72%</p>
             </div>
             <div class="resume-date text-md-right">
@@ -181,67 +187,78 @@
 
         </div>
       </section>
+        
+
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="Work Experience">
+        <div class="my-auto">
+          <h2 class="mb-5">Work Experience</h2>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Internship</h3>
+              <div class="subheading mb-3">University of Cape Town, Electronic Engineering Lab</div>
+              <p>The Chemical Eng. Dept. have developed an electrical tomography unit which can analayse the flowrate, consisteny etc. of a mixtuxe flowing though a pipe line by attached a circular ring of electrodes. At that moment the system was running on an expensive labview microprocessor so the task of the project was to implement the complicated coding onto a simple inexpensive and portable Raspberry Pi 3. The program was implemented in C, the main challenge was the timing of the signals as they had to be in the order of 1e-3 and since the Pi 3 does not have a timing module an extrenal timing module must be incorporated. However, I managed to set up the code to use the Pi 3's internal cpu clock with interupts to run the very complicated timing sequence coded in labview. </p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">January 2016 - June 2016</span>
+            </div>
+          </div>
+
+       
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Electrical Engineering Department Teaching Assist</h3>
+              <div class="subheading mb-3">University of Cape Town</div>
+              <p> I was a tutor to a third year Microprocessors course. My role was to assist and grade student's C code. After being a tutor for a year I was promoted to a teaching assist for a fourth year signals and systems course. My role was to lecture in the event the professor could not, grade tests and help conduct the exam.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">January 2016 - June 2016</span>
+            </div>
+
+          </div>
+
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Product Developer and Teacher for Arduino High School Course</h3>
+              <div class="subheading mb-3">Club Electron</div>
+              <p>A company based in Cape Town called Club Electron teaches children between grades six and eight the incredible world of robotics through Arduino based robots. During my undergraduate I was a tutor to grade eights and simply taught Arduino C and basic electronics. After one year I was promoted to help design the lessons and thus the circuitry needed. I was responsible for designing and printing circuit boards as well as teaching the lessons for said boards.</p>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">February 2014 - December 2016</span>
+            </div>
+          </div>
+
+
+
+        </div>
+      </section>
 
       <hr class="m-0">
 
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
         <div class="my-auto">
           <h2 class="mb-5">Skills</h2>
-
+           <i class="devicon-amazonwebservices-original"></i>
           <div class="subheading mb-3">Programming Languages &amp; Tools</div>
-          <ul class="list-inline dev-icons">
-            <li class="list-inline-item">
-              <i class="fab fa-html5"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-css3-alt"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-js-square"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-angular"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-react"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-node-js"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-sass"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-less"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-wordpress"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-gulp"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-grunt"></i>
-            </li>
-            <li class="list-inline-item">
-              <i class="fab fa-npm"></i>
-            </li>
-          </ul>
-
+          <p> Python </p>
+            <p> C </p>
+            <p> Labview </p>
+            <p> Robotic Operating Software (ROS) </p>
+            <p> Matlab </p>
           <div class="subheading mb-3">Workflow</div>
           <ul class="fa-ul mb-0">
             <li>
               <i class="fa-li fa fa-check"></i>
-              Mobile-First, Responsive Design</li>
+              Logical approach to project planning</li>
             <li>
               <i class="fa-li fa fa-check"></i>
-              Cross Browser Testing &amp; Debugging</li>
+              Able to work within a multidisciplinary team</li>
             <li>
               <i class="fa-li fa fa-check"></i>
-              Cross Functional Teams</li>
+              A systematic engineering approach to learning new concepts and solving problems</li>
             <li>
-              <i class="fa-li fa fa-check"></i>
-              Agile Development &amp; Scrum</li>
+           
           </ul>
         </div>
       </section>
@@ -251,46 +268,13 @@
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
         <div class="my-auto">
           <h2 class="mb-5">Interests</h2>
-          <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-          <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
+          <p>Apart from my passion for robotics, I enjoy most of my time being outdoors. In the winter, I am an avid snowboarding whilst during the warmer months I enjoy surfboarding and hiking. I went hiking in Nepal in 2018 for three weeks and even though it was tough I would love to return.</p>
+          <p> When forced indoors, I would say my biggest hobby is reading. I tend to enjoy non-fiction with the occasional fantasy series to get yourself lost in another world.<br /> Favorite books: 1984, George Orwell. Guns Germs and Steel, Jared Diamond. Mirror of the gods, Malcolm Bull.</p>
+           <p> I think I am an aspiring chef and I spend a large amount of my free time exploring the latest technology advancements in the machine learning and robotics world.</p>
         </div>
       </section>
 
-      <hr class="m-0">
-
-      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
-        <div class="my-auto">
-          <h2 class="mb-5">Awards &amp; Certifications</h2>
-          <ul class="fa-ul mb-0">
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              Google Analytics Certified Developer</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              Mobile Web Specialist - Google Certification</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              1<sup>st</sup>
-              Place - University of Colorado Boulder - Emerging Tech Competition 2009</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              1<sup>st</sup>
-              Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              2<sup>nd</sup>
-              Place - University of Colorado Boulder - Emerging Tech Competition 2008</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              1<sup>st</sup>
-              Place - James Buchanan High School - Hackathon 2006</li>
-            <li>
-              <i class="fa-li fa fa-trophy text-warning"></i>
-              3<sup>rd</sup>
-              Place - James Buchanan High School - Hackathon 2005</li>
-          </ul>
-        </div>
-      </section>
+      
 
     </div>
 
